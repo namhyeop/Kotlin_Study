@@ -20,6 +20,7 @@ import kotlinx.coroutines.delay
 9. 이미지 조회 완료 후 continuation.resumeWith() 호출
 10. resumeWith()에서 image 저장하고 label=2로 변경 후 findUser() 재호출
 11. 모든 데이터가 준비되었으므로 UserDto 반환
+12. 이런 형식으로 Continuation을 지속적으로 전달해 상태를 관리하는 방법을 Continuation Passing Style이라고 호칭함
 */
 
 suspend fun main(){
